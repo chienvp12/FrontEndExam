@@ -32,10 +32,11 @@
     padding:20px ;
 }
 .group1{
-    width: 1510px;
+    /* width: 1510px; */
     height: 210px;
     background: #efefef;
-    margin-left: 60px;
+    /* margin-left: 70px; */
+    left: 20px;
 }
 .group1 .text-head{
     font-size: 18px;
@@ -44,4 +45,11 @@
 .group1 .text-item{
     font-size: 16px;
     
+}
+.group-box{
+    display: flex;
+    padding-top: 40px;
+}
+.group-item{
+    flex-wrap: flex-end;
 }
